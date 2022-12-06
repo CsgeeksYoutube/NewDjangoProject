@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is a variable.html file</h1>
+    {% for num in some_list %}
+    {% if num == 2 %}
+    <li> Two</li>
+    {% else %}
+    <li>
+        {{num}}
+    </li>
+    {% endif %}
+
+
+    {% endfor %}
+    
+  
+
+
+    <!-- <h2>this is first name {{first_name | lower }}</h2>
+    <h3>{{some_list.1}}</h3>
+    <h4>{{some_dict.inside_key}}</h4> -->
+</body>
+</html>
